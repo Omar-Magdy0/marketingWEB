@@ -13,6 +13,6 @@ body{padding: 0px;margin: 0px;background-color: bisque;height: 100%;width: 100%;
 
 .navBarListItem:active {background-color: rgb(83, 83, 83);}
 
-#menu {width: 50%;height:70%; background-color: rgba(0, 0, 0, 0.732);}
+#menu {width: 50%;height:70%; background-color: rgba(0, 0, 0, 0.732);display:none;}
 
 
