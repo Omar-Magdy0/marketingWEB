@@ -5,7 +5,7 @@
     function toggle(){
         if(!displayed){ menu.style.display = "block" ;menuButton.style.backgroundColor = "rgb(83, 83, 83)";
         displayed = true;}
-         else{ menu.style.display = "none";menuButton.style.backgroundColor = "rgba(107, 107, 107, 0.89)"; displayed = false;}
+         else{ menu.style.display = "none";menuButton.style.backgroundColor = "rgba(41, 41, 41, 0.568)"; displayed = false;}
         
         
         
