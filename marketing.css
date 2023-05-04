@@ -1,8 +1,9 @@
 html{width: 100%;height: 100%;padding: 0px;}
-body{padding: 0px;margin: 0px;background-color: bisque;height: 100%;width: 100%;}
+body{padding: 0px;margin: 0px;background-color: bisque;height: 100%;width: 100%;overflow-y: hidden;}
 
+#backgroundBox{background-image: ;}
 
-.navBar{width: 100%;height: 100px;}
+.navBar{width: 100%;height: 100px;position: fixed;}
 
 .navBarList{margin: 0px;height: 100%;width: 100%;
     background-color: rgb(94, 94, 94);display: flex;}
@@ -13,6 +14,6 @@ body{padding: 0px;margin: 0px;background-color: bisque;height: 100%;width: 100%;
 
 .navBarListItem:active {background-color: rgb(83, 83, 83);}
 
-#menu {width: 50%;height:70%; background-color: rgba(0, 0, 0, 0.732);display:none;}
+#menu {width: 50%;height:100%; background-color: rgba(0, 0, 0, 0.732);display:none;overflow-y: auto;}
 
 
