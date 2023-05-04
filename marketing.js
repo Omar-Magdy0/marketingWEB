@@ -1,13 +1,9 @@
 
-
+console.log("12");
     var menuButton = document.getElementById("menuButton");
-    var menuButton = document.getElementById("menu");
+    var menu = document.getElementById("menu");
     
-    function toggle(){var displayed = false;
-       if(!displayed){ menu.style.display = "block";displayed = true}
-        else{menu.style.display = "none";displayed = none}
-    }  
-       menuButton.addEventListener('click',toggle);
+       menuButton.addEventListener('click',console.log("1"));
 
 
 
